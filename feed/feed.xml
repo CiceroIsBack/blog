@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
 	<title>Cicero Is Back</title>
 	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
-	<link href="https://ciceroisback.com/feed/feed.xml" rel="self"/>
-	<link href="https://ciceroisback.com/"/>
+	<link href="https://ciceroisback.com/blog/feed/feed.xml" rel="self"/>
+	<link href="https://ciceroisback.com/blog/"/>
 	<updated>2023-12-20T00:00:00Z</updated>
 	<id>https://ciceroisback.com/</id>
 	<author>
@@ -13,9 +13,9 @@
 	
 	<entry>
 		<title>StephenHall</title>
-		<link href="https://ciceroisback.com/blog/StephenHall/"/>
+		<link href="https://ciceroisback.com/blog/blog/StephenHall/"/>
 		<updated>2023-12-20T00:00:00Z</updated>
-		<id>https://ciceroisback.com/blog/StephenHall/</id>
+		<id>https://ciceroisback.com/blog/blog/StephenHall/</id>
 		<content type="html">&lt;ul&gt;
 &lt;li&gt;On [[Mar 18th, 2023]], Stephen and I had an interesting conversation about swagger. He likes it; I don&#39;t.&lt;/li&gt;
 &lt;li&gt;Plan for Stephen to come to Gutenberg
@@ -43,12 +43,12 @@ Happy Birthday! Congratulations on turning 18 :) I hope this year brings you a l
 	
 	<entry>
 		<title>Leadership Voice Class</title>
-		<link href="https://ciceroisback.com/blog/Leadership%20Voice%20Class/"/>
+		<link href="https://ciceroisback.com/blog/blog/Leadership%20Voice%20Class/"/>
 		<updated>2023-12-20T00:00:00Z</updated>
-		<id>https://ciceroisback.com/blog/Leadership%20Voice%20Class/</id>
+		<id>https://ciceroisback.com/blog/blog/Leadership%20Voice%20Class/</id>
 		<content type="html">&lt;ul&gt;
 &lt;li&gt;
-&lt;h2 id=&quot;intro-to-the-class&quot; tabindex=&quot;-1&quot;&gt;Intro to the Class &lt;a class=&quot;header-anchor&quot; href=&quot;https://ciceroisback.com/blog/Leadership%20Voice%20Class/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;intro-to-the-class&quot; tabindex=&quot;-1&quot;&gt;Intro to the Class &lt;a class=&quot;header-anchor&quot; href=&quot;https://ciceroisback.com/blog/blog/Leadership%20Voice%20Class/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;led by #DavidSnider&lt;/p&gt;
@@ -65,7 +65,7 @@ Happy Birthday! Congratulations on turning 18 :) I hope this year brings you a l
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;h3 id=&quot;assumptions-in-this-class&quot; tabindex=&quot;-1&quot;&gt;Assumptions in this class &lt;a class=&quot;header-anchor&quot; href=&quot;https://ciceroisback.com/blog/Leadership%20Voice%20Class/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;assumptions-in-this-class&quot; tabindex=&quot;-1&quot;&gt;Assumptions in this class &lt;a class=&quot;header-anchor&quot; href=&quot;https://ciceroisback.com/blog/blog/Leadership%20Voice%20Class/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;our Voice is made up of all 5 Voices&lt;/p&gt;
@@ -91,7 +91,7 @@ Happy Birthday! Congratulations on turning 18 :) I hope this year brings you a l
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;h3 id=&quot;voice-rating-system&quot; tabindex=&quot;-1&quot;&gt;Voice Rating System &lt;a class=&quot;header-anchor&quot; href=&quot;https://ciceroisback.com/blog/Leadership%20Voice%20Class/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;voice-rating-system&quot; tabindex=&quot;-1&quot;&gt;Voice Rating System &lt;a class=&quot;header-anchor&quot; href=&quot;https://ciceroisback.com/blog/blog/Leadership%20Voice%20Class/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;:green: - my Foundational Voice, my default pattern of communication and thinking&lt;/li&gt;
 &lt;li&gt;:yellow: - not my foundational voice, but I value it and it&#39;s easily accessible&lt;/li&gt;
@@ -101,10 +101,10 @@ Happy Birthday! Congratulations on turning 18 :) I hope this year brings you a l
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;h2 id=&quot;the-5-voices&quot; tabindex=&quot;-1&quot;&gt;The 5 Voices &lt;a class=&quot;header-anchor&quot; href=&quot;https://ciceroisback.com/blog/Leadership%20Voice%20Class/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;the-5-voices&quot; tabindex=&quot;-1&quot;&gt;The 5 Voices &lt;a class=&quot;header-anchor&quot; href=&quot;https://ciceroisback.com/blog/blog/Leadership%20Voice%20Class/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;h3 id=&quot;nurturer-yellow&quot; tabindex=&quot;-1&quot;&gt;Nurturer ==:yellow:== &lt;a class=&quot;header-anchor&quot; href=&quot;https://ciceroisback.com/blog/Leadership%20Voice%20Class/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;nurturer-yellow&quot; tabindex=&quot;-1&quot;&gt;Nurturer ==:yellow:== &lt;a class=&quot;header-anchor&quot; href=&quot;https://ciceroisback.com/blog/blog/Leadership%20Voice%20Class/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 champion of people, relational values, and harmony
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Attributes:&lt;/strong&gt;
@@ -131,7 +131,7 @@ champion of people, relational values, and harmony
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;h3 id=&quot;creative-red&quot; tabindex=&quot;-1&quot;&gt;Creative ==:red:== &lt;a class=&quot;header-anchor&quot; href=&quot;https://ciceroisback.com/blog/Leadership%20Voice%20Class/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;creative-red&quot; tabindex=&quot;-1&quot;&gt;Creative ==:red:== &lt;a class=&quot;header-anchor&quot; href=&quot;https://ciceroisback.com/blog/blog/Leadership%20Voice%20Class/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 future ideas, innovation and organizational integrity
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Attributes:&lt;/strong&gt;
@@ -153,7 +153,7 @@ future ideas, innovation and organizational integrity
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;h3 id=&quot;guardian-green&quot; tabindex=&quot;-1&quot;&gt;Guardian ==:green:== &lt;a class=&quot;header-anchor&quot; href=&quot;https://ciceroisback.com/blog/Leadership%20Voice%20Class/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;guardian-green&quot; tabindex=&quot;-1&quot;&gt;Guardian ==:green:== &lt;a class=&quot;header-anchor&quot; href=&quot;https://ciceroisback.com/blog/blog/Leadership%20Voice%20Class/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 due diligence, resources, and effective
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Attributes:&lt;/strong&gt;
@@ -183,7 +183,7 @@ due diligence, resources, and effective
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;h3 id=&quot;connector-green-yellow&quot; tabindex=&quot;-1&quot;&gt;Connector ==:green-yellow:== &lt;a class=&quot;header-anchor&quot; href=&quot;https://ciceroisback.com/blog/Leadership%20Voice%20Class/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;connector-green-yellow&quot; tabindex=&quot;-1&quot;&gt;Connector ==:green-yellow:== &lt;a class=&quot;header-anchor&quot; href=&quot;https://ciceroisback.com/blog/blog/Leadership%20Voice%20Class/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 champion of relational networks, internal collaboration, and effective communication
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Attributes:&lt;/strong&gt;
@@ -217,7 +217,7 @@ champion of relational networks, internal collaboration, and effective communica
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;h3 id=&quot;pioneer-red&quot; tabindex=&quot;-1&quot;&gt;Pioneer ==:red:== &lt;a class=&quot;header-anchor&quot; href=&quot;https://ciceroisback.com/blog/Leadership%20Voice%20Class/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;pioneer-red&quot; tabindex=&quot;-1&quot;&gt;Pioneer ==:red:== &lt;a class=&quot;header-anchor&quot; href=&quot;https://ciceroisback.com/blog/blog/Leadership%20Voice%20Class/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 champion of strategic vision, results-focused, and problem-solving
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Attributes:&lt;/strong&gt;
@@ -242,7 +242,7 @@ champion of strategic vision, results-focused, and problem-solving
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;h3 id=&quot;my-voice-order&quot; tabindex=&quot;-1&quot;&gt;My Voice Order &lt;a class=&quot;header-anchor&quot; href=&quot;https://ciceroisback.com/blog/Leadership%20Voice%20Class/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;my-voice-order&quot; tabindex=&quot;-1&quot;&gt;My Voice Order &lt;a class=&quot;header-anchor&quot; href=&quot;https://ciceroisback.com/blog/blog/Leadership%20Voice%20Class/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Guardian - green&lt;/p&gt;
@@ -262,7 +262,7 @@ champion of strategic vision, results-focused, and problem-solving
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;h3 id=&quot;assignments&quot; tabindex=&quot;-1&quot;&gt;Assignments &lt;a class=&quot;header-anchor&quot; href=&quot;https://ciceroisback.com/blog/Leadership%20Voice%20Class/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;assignments&quot; tabindex=&quot;-1&quot;&gt;Assignments &lt;a class=&quot;header-anchor&quot; href=&quot;https://ciceroisback.com/blog/blog/Leadership%20Voice%20Class/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;After 2nd session
 &lt;ul&gt;

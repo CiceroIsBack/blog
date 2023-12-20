@@ -2,17 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://ciceroisback.com/blog/Leadership%20Voice%20Class/</loc>
+		<loc>https://ciceroisback.com/blog/blog/Leadership%20Voice%20Class/</loc>
 		<lastmod>2023-12-20</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://ciceroisback.com/blog/StephenHall/</loc>
+		<loc>https://ciceroisback.com/blog/blog/StephenHall/</loc>
 		<lastmod>2023-12-20</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://ciceroisback.com/about/</loc>
+		<loc>https://ciceroisback.com/blog/about/</loc>
+		<lastmod>2023-12-20</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://ciceroisback.com/blog/blog/</loc>
 		<lastmod>2023-12-20</lastmod>
 	</url>
 	
@@ -22,32 +27,27 @@
 	</url>
 	
 	<url>
-		<loc>https://ciceroisback.com/</loc>
+		<loc>https://ciceroisback.com/blog/tags/</loc>
 		<lastmod>2023-12-20</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://ciceroisback.com/tags/</loc>
+		<loc>https://ciceroisback.com/blog/tags/leadership/</loc>
 		<lastmod>2023-12-20</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://ciceroisback.com/tags/leadership/</loc>
+		<loc>https://ciceroisback.com/blog/tags/family/</loc>
 		<lastmod>2023-12-20</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://ciceroisback.com/tags/family/</loc>
+		<loc>https://ciceroisback.com/blog/blog/Things%20I%20want%20to%20develop%20thoughts%20on/</loc>
 		<lastmod>2023-12-20</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://ciceroisback.com/blog/Things%20I%20want%20to%20develop%20thoughts%20on/</loc>
-		<lastmod>2023-12-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://ciceroisback.com/blog/When%20Buying%20a%20House/</loc>
+		<loc>https://ciceroisback.com/blog/blog/When%20Buying%20a%20House/</loc>
 		<lastmod>2023-12-20</lastmod>
 	</url>
 </urlset>
