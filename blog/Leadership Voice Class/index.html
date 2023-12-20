@@ -1,0 +1,726 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Leadership Voice Class</title>
+		<meta name="description" content="I am writing about my experiences as a naval navel-gazer.">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Cicero Is Back">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Cicero Is Back">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p {
+	line-height: 1.5;
+}
+li > p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">Cicero Is Back</a>
+			<nav>
+				<h2 class="visually-hidden">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/about/">About Me</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			
+<h1>Leadership Voice Class</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2023-12-20">20 December 2023</time></li>
+	<li><a href="/tags/leadership/" class="post-tag">Leadership</a>, </li>
+	<li><a href="/tags/family/" class="post-tag"> Family</a></li>
+</ul>
+
+<ul>
+<li>
+<h2 id="intro-to-the-class" tabindex="-1">Intro to the Class <a class="header-anchor" href="#intro-to-the-class">#</a></h2>
+<ul>
+<li>
+<p>led by #DavidSnider</p>
+</li>
+<li>
+<p>giantworldwide.com</p>
+</li>
+<li>
+<p>Primary conflict: Everyone speaks. Not everyone is heard.</p>
+<ul>
+<li>Team leaders rarely, if ever, hear the truth from their people.</li>
+<li>As a result, team members feel misunderstood and undervalued.</li>
+<li>So, leaders lose their influence as leaders</li>
+</ul>
+</li>
+<li>
+<h3 id="assumptions-in-this-class" tabindex="-1">Assumptions in this class <a class="header-anchor" href="#assumptions-in-this-class">#</a></h3>
+<ul>
+<li>
+<p>our Voice is made up of all 5 Voices</p>
+</li>
+<li>
+<p>some Voices are more natural to us than others</p>
+</li>
+<li>
+<p>maturity allows us to value the contribution each Voice brings</p>
+<ul>
+<li>this is not a personality profile to put you in a box</li>
+</ul>
+</li>
+<li>
+<p>nature, nurture, and choice have all played a part in your Voices</p>
+</li>
+<li>
+<p>don't assume you know what someone else's Foundational Voice is</p>
+</li>
+<li>
+<p>don't assume you know what each word means</p>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="voice-rating-system" tabindex="-1">Voice Rating System <a class="header-anchor" href="#voice-rating-system">#</a></h3>
+<ul>
+<li>:green: - my Foundational Voice, my default pattern of communication and thinking</li>
+<li>:yellow: - not my foundational voice, but I value it and it's easily accessible</li>
+<li>:red: - not my found</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h2 id="the-5-voices" tabindex="-1">The 5 Voices <a class="header-anchor" href="#the-5-voices">#</a></h2>
+<ul>
+<li>
+<h3 id="nurturer-yellow" tabindex="-1">Nurturer ==:yellow:== <a class="header-anchor" href="#nurturer-yellow">#</a></h3>
+champion of people, relational values, and harmony
+<ul>
+<li><strong>Attributes:</strong>
+<ul>
+<li>they intuitively feel how an organization will react to a new idea</li>
+<li>they defend values - people will always come before profit</li>
+<li>they function as the relational oil inside teams and organizations
+<ul>
+<li>can restate assertions to keep people from talking past each other</li>
+</ul>
+</li>
+<li>they are pragmatic realists who ask &quot;has this really been thought through?&quot;</li>
+<li>they take genuine delight in celebrating the achievements of others</li>
+<li>they are natural team players</li>
+<li>they can become overly resistant to change &amp; demonstrate passive aggressive tendencies</li>
+<li>they rarely value the contribution they make; susceptible to imposter syndrome</li>
+</ul>
+</li>
+<li><strong>Champion of:</strong> people, relational harmony, values</li>
+<li><strong>Watch out for:</strong> nurturers have a fear of conflict and often won't speak out, beware of silence</li>
+<li><strong>How to empower them:</strong> let them speak first, affirm their competence and the genuine value of their contribution</li>
+<li><strong>Population:</strong> 43%</li>
+<li><strong>Voice Volume:</strong> 1/7, very quiet</li>
+</ul>
+</li>
+<li>
+<h3 id="creative-red" tabindex="-1">Creative ==:red:== <a class="header-anchor" href="#creative-red">#</a></h3>
+future ideas, innovation and organizational integrity
+<ul>
+<li><strong>Attributes:</strong>
+<ul>
+<li>they are the conceptual architects and love to think outside the box</li>
+<li>they function as an &quot;early warning system&quot; for teams, often seeing the opportunities and dangers before everyone else</li>
+<li>they are never satisfied with the status quo - they inherently believe things can always be better</li>
+<li>if the vision is compelling the word &quot;can't&quot; is not in their vocabulary</li>
+<li>they often struggle with the fact that &quot;people never seem to fully understand my ideas&quot;</li>
+<li>they exhibit a strong social conscience and desire for personal and organizational integrity</li>
+<li>being internal perfectionists, they can often fail to celebrate the 90% that has been achieved, focusing instead on the 10% that hasn't!</li>
+</ul>
+</li>
+<li><strong>Champion of:</strong> future ideas, innovation, and organizational integrity</li>
+<li><strong>Watch out for:</strong> creatives can struggle to communicate effectively and have idealist perfectionist tendencies (aiming for utopia); this leads to them being hard on themselves when they're not perfect</li>
+<li><strong>How to empower them:</strong> don't judge them on what they say first, help them communicate their ideas. let them know it's ok to be wrong sometimes</li>
+<li><strong>Population:</strong> 9%</li>
+<li><strong>Voice Volume:</strong> 2/7</li>
+</ul>
+</li>
+<li>
+<h3 id="guardian-green" tabindex="-1">Guardian ==:green:== <a class="header-anchor" href="#guardian-green">#</a></h3>
+due diligence, resources, and effective
+<ul>
+<li><strong>Attributes:</strong>
+<ul>
+<li>they have a relentless commitment to asking the difficult questions</li>
+<li>they will always seek to honor the past as teams look towards the future - <em>this is the only one I don't identify with</em></li>
+<li>they accept as personal the commitment to deliver projects on time and on budget
+<ul>
+<li>(makes a good project manager)</li>
+</ul>
+</li>
+<li>they have the ability to detach decision-making from personal sentiments</li>
+<li>they are naturally risk-averse asking &quot;is it worth the risk and investment&quot;</li>
+<li>they respect and value logic, order, systems and repeatable processes</li>
+<li>their desire for truth and right decisions can sometimes override the feelings of others</li>
+</ul>
+</li>
+<li><strong>Champion of:</strong> Due diligence, resources, and efficient systems and processes</li>
+<li><strong>Watch out for:</strong> guardians are risk averse, can be negative and bring excessive critique
+<ul>
+<li>I'm too soft-spoken for excessive critique, and I'm not very negative, so I don't identify with this much</li>
+</ul>
+</li>
+<li><strong>How to empower them:</strong> welcome their challenging critique and commitment to due diligence</li>
+<li><strong>Population:</strong> 30%</li>
+<li><strong>Voice Volume:</strong> 3/7</li>
+</ul>
+</li>
+<li>
+<h3 id="connector-green-yellow" tabindex="-1">Connector ==:green-yellow:== <a class="header-anchor" href="#connector-green-yellow">#</a></h3>
+champion of relational networks, internal collaboration, and effective communication
+<ul>
+<li><strong>Attributes:</strong>
+<ul>
+<li>they are persuasive and inspirational communicators - rallying people to causes and things they believe in - <em>yes</em></li>
+<li>they are incredibly resourceful - &quot;Whatever we need, I can get it or I have a source&quot; - <em>yes</em></li>
+<li>they have the capacity to maintain a large number of relationships - <em>not so much</em>
+<ul>
+<li>when they see people again after a long time, they can instantly reconnect with them. - <em>yes</em></li>
+</ul>
+</li>
+<li>they know how to connect with people and their aspirations</li>
+<li>they need appreciation and credit for making key connections - &quot;Are you aware of what I've done?&quot;</li>
+<li>their people-pleasing tendencies mean they often struggle to bring effective challenge; they hesitate to push others - <em>yes</em></li>
+<li>they often struggle to hear or engage fully with critical feedback - <em>yes</em>
+<ul>
+<li>there's very little separation between their work and personal lives, so they take critical feedback personally.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Champion of:</strong> relational networks, internal collaboration, and effective communication</li>
+<li><strong>Watch out for:</strong> connectors always interpret challenge of their ideas as personal</li>
+<li><strong>How to empower them:</strong> give them time to share their ideas and passions, appreciate before you critique
+<ul>
+<li>their ideas are like art, and they need time to deliver the ethos of the idea, not just the mechanics</li>
+</ul>
+</li>
+<li><strong>Population:</strong> 11%</li>
+<li><strong>Voice Volume:</strong> 5/7</li>
+</ul>
+</li>
+<li>
+<h3 id="pioneer-red" tabindex="-1">Pioneer ==:red:== <a class="header-anchor" href="#pioneer-red">#</a></h3>
+champion of strategic vision, results-focused, and problem-solving
+<ul>
+<li><strong>Attributes:</strong>
+<ul>
+<li>they approach life with an &quot;anything is possible!&quot; attitude</li>
+<li>visioning and shaping a scalable future is always the highest priority</li>
+<li>their strategic military thinking makes them incredibly effective at aligning people, systems and resources</li>
+<li>winning is a massive driver, they hate to give up and will drive their team long after others would have given up</li>
+<li>they are powerful communicators, using logic and rationality to provide an attractive and compelling vision of the future</li>
+<li>the immature Pioneer can often appear very arrogant with a &quot;me focused&quot; agenda</li>
+<li>they quickly dismiss the contributions of those they don't believe to be competent or experienced</li>
+<li>can struggle with ego</li>
+</ul>
+</li>
+<li><strong>Champion of:</strong> strategic vision, results-focused, and problem-solving</li>
+<li><strong>Watch out for:</strong> pioneers lack sensitivity, can be unwilling to listen, and perceived as arrogant</li>
+<li><strong>How to empower them:</strong> don't worry - they empower themselves. just affirm their competence</li>
+<li><strong>Population:</strong> 7%</li>
+<li><strong>Voice Volume:</strong> 8/7, loud to the point of distortion</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="my-voice-order" tabindex="-1">My Voice Order <a class="header-anchor" href="#my-voice-order">#</a></h3>
+<ul>
+<li>
+<p>Guardian - green</p>
+</li>
+<li>
+<p>Connector - green/yellow</p>
+</li>
+<li>
+<p>Nurturer - yellow</p>
+</li>
+<li>
+<p>Creative - red</p>
+</li>
+<li>
+<p>Pioneer - red</p>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="assignments" tabindex="-1">Assignments <a class="header-anchor" href="#assignments">#</a></h3>
+<ul>
+<li>After 2nd session
+<ul>
+<li>When you speak, complete your sentences and stay focused on one idea at a time
+<ul>
+<li>When I'm speaking, I often lose my train of thought or just trail off into nothingness. I often lose a word that I want to say, and then have to stop what I'm saying to think of it. I just don't feel like I can communicate ideas coherently.</li>
+<li>Part of the problem arises because I'm a verbal processor, so I don't think about things unless I'm talking about them. However, I don't talk about things with people very often. This leads to me not developing thoughts on things very often. Generally I sit down to have a conversation with someone, and I don't have any thoughts to provide on the topic. So, I end up just sitting and letting them talk, and not having anything to say back. It's only after I've gone away from the conversation that I can come up with a response.</li>
+<li>And having said all that, I'm not completely</li>
+</ul>
+</li>
+<li>When people reject your idea it's not as personal as it sometimes feels.
+<ul>
+<li>In the same vein, pretty often I'm reticent to share my ideas, because I'm afraid that people won't like them. I haven't had enough time to develop my thoughts, because I haven't been talking to people. This is just a vicious cycle where I don't do any thinking, and I don't do any talking.</li>
+<li>And when I do share my ideas, and people dislike them, I tend to take it hard, especially if they are ideas that I've spent a lot of time thinking about.</li>
+<li>I guess the upshot of all this is that I don't feel currently able to share my thoughts and ideas effectively. My goal for improving this is to do a lot more talking to myself. this will include techniques like talking quietly under my breath without moving my lips to slow down and focus my thought processes. I'll talk to myself about various topics that I want to develop thoughts on, then seek out a person to talk to about that topic.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<ul class="links-nextprev"><li>Next: <a href="/blog/StephenHall/">StephenHall</a></li>
+</ul>
+
+		</main>
+
+		<footer></footer>
+
+		<!-- Current page: /blog/Leadership Voice Class/ -->
+	</body>
+</html>
