@@ -2,16 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://ciceroisback.com/blog/blog/Leadership%20Voice%20Class/</loc>
-		<lastmod>2023-12-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://ciceroisback.com/blog/blog/StephenHall/</loc>
-		<lastmod>2023-12-20</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://ciceroisback.com/blog/about/</loc>
 		<lastmod>2023-12-20</lastmod>
 	</url>
@@ -32,17 +22,12 @@
 	</url>
 	
 	<url>
-		<loc>https://ciceroisback.com/blog/tags/leadership/</loc>
-		<lastmod>2023-12-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://ciceroisback.com/blog/tags/family/</loc>
-		<lastmod>2023-12-20</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://ciceroisback.com/blog/blog/Things%20I%20want%20to%20develop%20thoughts%20on/</loc>
 		<lastmod>2023-12-20</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://ciceroisback.com/blog/blog/_site/Things%20I%20want%20to%20develop%20thoughts%20on/</loc>
+		<lastmod>2023-12-21</lastmod>
 	</url>
 </urlset>
